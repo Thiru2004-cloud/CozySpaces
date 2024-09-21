@@ -1,0 +1,430 @@
+body{
+    max-width: 1400px;
+    
+}
+.top ul a::before{
+        content: "";
+        height: 3px;
+        width:100%;
+        display: block;
+        background-color:rgb(0, 239, 60);
+        transform: 4s;
+        position: absolute;
+        top:20px;
+        opacity: 0;
+
+}
+.top ul a:hover::before{
+   opacity: 1;
+}
+.top ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    position: relative;
+    bottom:80px;
+    left: 450px;
+    text-transform: uppercase;
+  
+    
+    
+}
+hr{
+    position: relative;
+    top: 130px;
+}
+.top img{
+    width: 150px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.top ul li{
+   
+    position: relative;
+   
+  
+    
+}
+
+.top ul a{
+    text-decoration: none;
+    color: rgb(13, 95, 95);
+}
+.top ul a:hover{
+    color: rgb(23, 182, 172);
+    
+}
+
+.box img{
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    
+}
+.box{
+    width: 1450px;
+    height: 600px;
+   
+}
+.slogan{
+    position: relative;
+    bottom: 500px;
+    left: 370px;
+}
+.slogan .sp1{
+    color: aliceblue;
+    text-transform: uppercase;
+}
+.slogan .sp2{
+    position: relative;
+    top:4px;
+}
+div .p{
+    color: rgb(202, 240, 14);
+
+    font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight:1000;
+  font-style: normal;
+    font-size: 16px;
+    position: relative;
+    
+    
+}
+.slogan h1{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 2000;
+  font-style: normal;
+}
+
+.slogan .c1{
+    position: relative;
+    top: 5px;
+}
+.slogan button{
+    padding: 10px;
+    position: relative;
+    left: 130px;
+    background-color:rgb(147, 215, 0);
+    border:none;
+    color: aliceblue;
+    top: 3px;
+    border-radius: 10px;
+}
+.slogan button:hover{
+    background-color: rgb(0, 165, 215);
+    letter-spacing: 1px;
+}
+
+.ourservices{
+    width:300px;
+    height: 480px;
+    
+    border: transparent;
+    border-radius: 10px;
+}
+.ourservices img{
+    width: 280px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.ourservices h3{
+    margin-left: 40px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-weight:2000px;
+  font-style: normal;
+
+}
+.ourservices p{
+    margin-left: 10px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight:1000;
+  font-style: normal
+}
+.ourservices button{
+    position: relative;
+    margin-left: 60px;
+    top: 10px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 179, 0);
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+.ourservices button:hover{
+    background-color: chartreuse;
+}
+.services1{
+   display: flex;
+   margin-top: 100px;
+   gap: 60px;
+   margin-left: 230px;
+}
+.services h2{
+    margin-left: 540px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 2000;
+  font-style: normal
+}
+.shopnow{
+  width: 250px;
+  height: 380px;
+  border: 1px solid rgb(221, 219, 218);
+  border-radius: 10px;
+}
+.shopnow img{
+    width: 95%;
+    height: 200px;
+    padding: 6px;
+    border-radius: 20px;
+}
+.shopnow h2{
+    position: relative;
+    left: 80px;
+    bottom: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.shopnow button{
+    background-color: rgb(43, 202, 226);
+    padding: 3px 10px;
+    border-radius: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 70px;
+}
+.shopnow button:hover{
+    background-color: rgb(170, 255, 80);
+}
+.new1{
+    position: relative;
+    top: 140px;
+}
+.New{
+    top: 40px;
+    position: relative;
+    left: 600px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 2000;
+  font-style: normal;
+
+}
+hr{
+    margin-top: 20px;
+}
+.shop{
+    top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 1400px;
+    position: relative;
+    left: 200px;
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 2000;
+  font-style: normal;
+}
+.New h2{
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color: rgb(0, 255, 72);
+}
+.New h1{
+    color: aqua;
+}
+.aboutus{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight:1000;
+  font-style: normal;
+    font-size: 16px;
+    position: relative;
+}
+.aboutus h4{
+    position: relative;
+    left: 600px;
+    bottom: 350px;
+}
+.aboutus .s1{
+    position: relative;
+    bottom: 30px;
+} 
+.aboutus .s2{
+    position: relative;
+    bottom: 10px;
+    font-weight: 20000px;
+    text-transform: uppercase;
+    color: rgb(90, 193, 193);
+    text-shadow:200px;
+}
+.aboutus img{
+    border-radius: 24px;
+}
+.aboutus i{
+    position: relative;
+    top: 20px;
+    font-style: normal;
+}
+em{
+    color: rgb(24, 237, 0);
+    text-transform: uppercase;
+    font-style: normal;
+}
+.one{
+    width: 600px;
+}
+.partners h1{
+    margin-left:700px;
+    font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight:10000;
+  font-style: normal;
+    font-size: 37px;
+    position: relative;
+}
+.partners .par{
+    position: relative;
+   display: flex;
+   gap: 80px;
+    left:80px;
+}
+.brand6{
+    height: 100px;
+    position: relative;
+    bottom: 30px;
+    width: 200px;
+    right: 40px;
+}
+.brand1{
+    position: relative;
+    top: 30px;
+    right: 120px;
+}
+.brand4{
+    position: relative;
+    right: 60px;
+}
+.brand7{
+    position: relative;
+    top: 10px;
+    left: 40px;
+}
+.brand8{
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    height: 120px;
+    width: 200px;
+}
+.brand2{
+    position: relative;
+    right:  100px;
+}
+.brand3{
+    position: relative;
+    top: 10px;
+    right: 80px;
+}
+.brand5{
+    position: relative;
+   top: 30px;
+   right: 40px;
+}
+.newsletter{
+position: relative;
+top: 100px;
+}
+.sub{
+    position: relative;
+    left: 700px;
+    bottom: 250px;
+    font-family: cursive;
+}
+.newsletter img{
+    width: 1500px;
+    height: 300px;
+    position: relative;
+    left: 0px;
+}
+input{
+    padding: 5px 40px;
+  }
+.sub button{
+    padding: 5px 20px;
+    background-color: rgb(244, 154, 29);
+    color: aliceblue;
+    font-family: cursive;
+    font-size: 11px;
+}
+.cozy{
+    width: 300px;
+}
+.c1{
+    position: relative;
+    top: 60px;
+}
+.cont {
+    display: flex;
+    height: 300px;
+    position: relative;
+    left: 170px;
+    font-family: cursive;
+}
+.services{
+    position: relative;
+    top: 59px;
+    left: 80px;
+    list-style: none;
+}
+.cont ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.product{
+    position: relative;
+    left: 320px;
+    bottom: 130px;
+}
+.contact{
+    position: relative;
+    left: 600px;
+    bottom: 310px;
+}
+.icon{
+    position: relative;
+    top: 10px;
+}
+i{
+    position: relative;
+    margin-left: 10px;            
+    top: 20px;
+    
+}
+.fa-whatsapp ,.fa-twitter,.fa-instagram{
+    font-size: 40px;
+}
+.icons{
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+    
+}
+.icons .fa-star{
+   color:rgb(187, 199, 30);
+}
